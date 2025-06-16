@@ -21,7 +21,7 @@
 - [*] Create a Deployment for Nginx.
 - [*] Scale up/down Pods using Deployment.
 - [*] Deployments [https://kubernetes.io/docs/concepts/workloads/controllers/deployment/]
-- [*] kubectl scale deployment nginx --replicas=3
+- [Done] kubectl scale deployment nginx --replicas=3
 
 ### Day 4 Namespaces, Labels & Selectors
 - [ ] Learn about Namespaces and how to isolate workloads.
