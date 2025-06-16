@@ -3,11 +3,11 @@
 ## Week 1: Kubernetes Basics & Core Concepts
 
 ### Day 1 Introduction to Kubernetes
-- [ ] Understand Kubernetes architecture: Master, Nodes, API Server, etcd, Scheduler, Kubelet, Kube-proxy.
-- [ ] Install Minikube (if not already done).
-- [ ] Start a basic cluster using Minikube.
-- [ ] K8s Concepts Overview [https://kubernetes.io/docs/concepts/overview/components/]
-- [ ] Try: minikube start, kubectl cluster-info, kubectl get nodes
+- [x] Understand Kubernetes architecture: Master, Nodes, API Server, etcd, Scheduler, Kubelet, Kube-proxy.
+- [x] Install Minikube (if not already done).
+- [x] Start a basic cluster using Minikube.
+- [x] K8s Concepts Overview [https://kubernetes.io/docs/concepts/overview/components/]
+- [x] Try: minikube start, kubectl cluster-info, kubectl get nodes
 
 ### Day 2 Kubernetes Objects & CLI Basics
 - [ ] Learn kubectl basics: create, get, describe, delete
