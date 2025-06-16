@@ -1,0 +1,6 @@
+- name: Join worker nodes to cluster
+  hosts: workers
+  become: yes
+  tasks:
+    - name: Join the node
+      shell: "{{ hostvars['192.168.56.10'].join_command }} --ignore-preflight-errors=all"

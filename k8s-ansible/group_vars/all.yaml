@@ -1,0 +1,2 @@
+kube_version: "1.28.0"
+pod_network_cidr: "192.168.0.0/16"

@@ -1,0 +1,25 @@
+- name: Initialize Kubernetes Master
+  hosts: master
+  become: yes
+  tasks:
+    - name: Initialize kubeadm
+      shell: |
+        kubeadm init --apiserver-advertise-address={{ ansible_host }}                      --pod-network-cidr=192.168.0.0/16
+      register: kubeadm_output
+      changed_when: "'kubeadm join' in kubeadm_output.stdout"
+
+    - name: Copy kubeconfig to user
+      shell: |
+        mkdir -p $HOME/.kube
+        cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+        chown $(id -u):$(id -g) $HOME/.kube/config
+
+    - name: Save join command
+      shell: kubeadm token create --print-join-command
+      register: join_cmd
+      delegate_to: localhost
+      changed_when: false
+
+    - name: Set join command for later use
+      set_fact:
+        join_command: "{{ join_cmd.stdout }}"

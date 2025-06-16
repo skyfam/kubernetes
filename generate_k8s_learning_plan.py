@@ -54,7 +54,7 @@ for day in range(1, 31):
         lines.append(f"- [ ] {task}")
     lines.append("")
 
-with open("K8s_30_Day_Learning_Plan.md", "w", encoding="utf-8") as f:
+with open("K8s-30-Day-Learning-Plan.md", "w", encoding="utf-8") as f:
     f.write("\n".join(lines))
 
-print("Markdown file 'K8s_30_Day_Learning_Plan.md' has been created.")
+print("Markdown file 'K8s-30-Day-Learning-Plan.md' has been created.")
