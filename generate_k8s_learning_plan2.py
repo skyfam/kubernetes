@@ -5,7 +5,7 @@ plan = {
             "Understand Kubernetes architecture: Master, Nodes, API Server, etcd, Scheduler, Kubelet, Kube-proxy.",
             "Install Minikube (if not already done).",
             "Start a basic cluster using Minikube.",
-            "K8s Concepts Overview",
+            "K8s Concepts Overview [https://kubernetes.io/docs/concepts/overview/components/]",
             "Try: minikube start, kubectl cluster-info, kubectl get nodes"
         ]),
         ("Day 2 Kubernetes Objects & CLI Basics", [
