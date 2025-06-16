@@ -6,7 +6,7 @@
 - [x] Understand Kubernetes architecture: Master, Nodes, API Server, etcd, Scheduler, Kubelet, Kube-proxy.
 - [x] Install Minikube (if not already done).
 - [x] Start a basic cluster using Minikube.
-- [x] K8s Concepts Overview [https://kubernetes.io/docs/concepts/overview/components/]
+- [x] K8s Concepts Overview [https://kubernetes.io/docs/concepts/overview/]
 - [x] Try: minikube start, kubectl cluster-info, kubectl get nodes
 
 ### Day 2 - Kubernetes Objects & CLI Basics
