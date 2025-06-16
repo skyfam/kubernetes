@@ -3,25 +3,25 @@
 ## Week 1: Kubernetes Basics & Core Concepts
 
 ### Day 1 Introduction to Kubernetes
-- [ ] Understand Kubernetes architecture: Master, Nodes, API Server, etcd, Scheduler, Kubelet, Kube-proxy.
-- [ ] Install Minikube (if not already done).
-- [ ] Start a basic cluster using Minikube.
-- [ ] K8s Concepts Overview [https://kubernetes.io/docs/concepts/overview/components/]
-- [ ] Try: minikube start, kubectl cluster-info, kubectl get nodes
+- [*] Understand Kubernetes architecture: Master, Nodes, API Server, etcd, Scheduler, Kubelet, Kube-proxy.
+- [*] Install Minikube (if not already done).
+- [*] Start a basic cluster using Minikube.
+- [*] K8s Concepts Overview [https://kubernetes.io/docs/concepts/overview/components/]
+- [*] Try: minikube start, kubectl cluster-info, kubectl get nodes
 
 ### Day 2 Kubernetes Objects & CLI Basics
-- [ ] Learn kubectl basics: create, get, describe, delete
-- [ ] Understand YAML manifest structure.
-- [ ] Deploy your first Pod using a YAML file.
-- [ ] Kubectl Cheat Sheet [https://kubernetes.io/docs/reference/kubectl/quick-reference/]
-- [ ] Practice: kubectl apply -f pod.yaml, kubectl delete pod <name>
+- [*] Learn kubectl basics: create, get, describe, delete
+- [*] Understand YAML manifest structure.
+- [*] Deploy your first Pod using a YAML file.
+- [*] Kubectl Cheat Sheet [https://kubernetes.io/docs/reference/kubectl/quick-reference/]
+- [*] Practice: kubectl apply -f pod.yaml, kubectl delete pod <name>
 
 ### Day 3 Deployments & ReplicaSets
-- [ ] Learn the purpose of Deployments & ReplicaSets.
-- [ ] Create a Deployment for Nginx.
-- [ ] Scale up/down Pods using Deployment.
-- [ ] Deployments [https://kubernetes.io/docs/concepts/workloads/controllers/deployment/]
-- [ ] kubectl scale deployment nginx --replicas=3
+- [*] Learn the purpose of Deployments & ReplicaSets.
+- [*] Create a Deployment for Nginx.
+- [*] Scale up/down Pods using Deployment.
+- [*] Deployments [https://kubernetes.io/docs/concepts/workloads/controllers/deployment/]
+- [*] kubectl scale deployment nginx --replicas=3
 
 ### Day 4 Namespaces, Labels & Selectors
 - [ ] Learn about Namespaces and how to isolate workloads.
