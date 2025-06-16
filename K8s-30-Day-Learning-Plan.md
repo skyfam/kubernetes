@@ -10,15 +10,15 @@
 - [x] Try: minikube start, kubectl cluster-info, kubectl get nodes
 
 ### Day 2 - Kubernetes Objects & CLI Basics
-- [ ] Learn kubectl basics: create, get, describe, delete
-- [ ] Understand YAML manifest structure.
-- [ ] Deploy your first Pod using a YAML file.
-- [ ] Kubectl Cheat Sheet [https://kubernetes.io/docs/reference/kubectl/quick-reference/]
-- [ ] Practice: kubectl apply -f pod.yaml, kubectl delete pod <name>
+- [x] Learn kubectl basics: create, get, describe, delete
+- [x] Understand YAML manifest structure.
+- [x] Deploy your first Pod using a YAML file.
+- [x] Kubectl Cheat Sheet [https://kubernetes.io/docs/reference/kubectl/quick-reference/]
+- [x] Practice: kubectl apply -f pod.yaml, kubectl delete pod <name>
 
 ### Day 3 - Deployments & ReplicaSets
-- [ ] Learn the purpose of Deployments & ReplicaSets.
-- [ ] Create a Deployment for Nginx.
+- [x] Learn the purpose of Deployments & ReplicaSets.
+- [x] Create a Deployment for Nginx.
 - [ ] Scale up/down Pods using Deployment.
 - [ ] Deployments [https://kubernetes.io/docs/concepts/workloads/controllers/deployment/]
 - [ ] kubectl scale deployment nginx --replicas=3
